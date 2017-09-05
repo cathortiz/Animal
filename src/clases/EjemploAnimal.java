@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package clases;
 
 /**
@@ -21,6 +17,8 @@ public class EjemploAnimal {
         pupi.come("Asado");
         pupi.duerme();
         pupi.peleaCon(pupa);
+        System.out.println(pupi);
+        System.out.println(pupa);
     }
     
 }
