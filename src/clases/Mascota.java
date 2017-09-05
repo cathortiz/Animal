@@ -12,5 +12,5 @@ package clases;
 public interface Mascota {
     void hazRuido();
     void come(String comida);
-    void peleaCon(Gato contrincante);
+    void peleaCon(Animal contrincante);
 }

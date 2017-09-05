@@ -69,7 +69,7 @@ public class Gato extends Animal implements Mascota{
      *
      * @param contrincante es el gato contra el que pelear
      */
-    public void peleaCon(Gato contrincante) {
+    public void peleaCon(Animal contrincante) {
         if (this.getSexo() == Sexo.HEMBRA) {
             System.out.println("no me gusta pelear");
         } else if (contrincante.getSexo() == Sexo.HEMBRA) {
